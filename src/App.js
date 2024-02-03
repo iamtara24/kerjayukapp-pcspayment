@@ -1,25 +1,22 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import NotificationPage from './pages/NotificationPage';
 import AlertComp from './components/AlertComp';
-import HeaderComp from './components/HeaderComp';
-import SummaryComp from './components/SummaryComp';
+import BerandaPage from './pages/BerandaPage';
 import NavbarComp from './components/NavbarComp';
+import NotificationPage from './pages/NotificationPage';
 
 function App() {
   return (
     <div className="App">
+      <AlertComp />
       <BrowserRouter>
-        <AlertComp />
-        <HeaderComp />
-        <SummaryComp />
-        <NavbarComp />
+        {/* <HeaderComp /> */}
         <Routes>
-          <Route>
-            <Route path="/" element={<App />} />
-            <Route path="/notification" element={<NotificationPage />} />
-          </Route>
+            <Route path="/" element={<BerandaPage />} />
+            <Route path="notification" element={<NotificationPage />} />
         </Routes>
+      {/* <SummaryComp /> */}
       </BrowserRouter>
+      <NavbarComp />
     </div>
   );
 }
