@@ -11,7 +11,7 @@ const NotificationPage = () => {
         <Row>
             <header className='d-flex gap-3 align-items-center border-bottom shadow-sm z-2 sticky-top bg-light' style={{height: '70px'}}>
                 <Link to="/" className='position-relative text-dark'>
-                    <i class="fas fa-arrow-left"></i>
+                    <i className="fas fa-arrow-left"></i>
                 </Link>
                 <h5 className='fw-bold mb-0 text-custom-primary'>Notification</h5>
             </header>
@@ -19,7 +19,7 @@ const NotificationPage = () => {
                 <div className="icon">
                     <img src={iconNotifCoin} alt="" height={'24px'} />
                     <div className="mark-notif done-notif">
-                        <i class="fas fa-check"></i>
+                        <i className="fas fa-check"></i>
                     </div>
                 </div>
                 <div className="content-notif">
@@ -34,7 +34,7 @@ const NotificationPage = () => {
                 <div className="icon">
                     <img src={iconNotifCoin} alt="" height={'24px'} />
                     <div className="mark-notif danger-notif">
-                        <i class="fas fa-times"></i>
+                        <i className="fas fa-times"></i>
                     </div>
                 </div>
                 <div className="content-notif">
@@ -49,7 +49,7 @@ const NotificationPage = () => {
                 <div className="icon">
                     <img src={iconNotifCoin} alt="" height={'24px'} />
                     <div className="mark-notif proses-notif">
-                        <i class="fas fa-arrow-right"></i>
+                        <i className="fas fa-arrow-right"></i>
                     </div>
                 </div>
                 <div className="content-notif">
@@ -64,7 +64,7 @@ const NotificationPage = () => {
                 <div className="icon">
                     <img src={iconNotifSick} alt="" height={'24px'} />
                     <div className="mark-notif done-notif">
-                        <i class="fas fa-check"></i>
+                        <i className="fas fa-check"></i>
                     </div>
                 </div>
                 <div className="content-notif">
@@ -79,7 +79,7 @@ const NotificationPage = () => {
                 <div className="icon">
                     <img src={iconNotifSick} alt="" height={'24px'} />
                     <div className="mark-notif danger-notif">
-                        <i class="fas fa-times"></i>
+                        <i className="fas fa-times"></i>
                     </div>
                 </div>
                 <div className="content-notif">
@@ -94,7 +94,7 @@ const NotificationPage = () => {
                 <div className="icon">
                     <img src={iconNotifSick} alt="" height={'24px'} />
                     <div className="mark-notif proses-notif">
-                        <i class="fas fa-arrow-right"></i>
+                        <i className="fas fa-arrow-right"></i>
                     </div>
                 </div>
                 <div className="content-notif">
@@ -109,7 +109,7 @@ const NotificationPage = () => {
                 <div className="icon">
                     <img src={iconNotifOver} alt="" height={'24px'} />
                     <div className="mark-notif done-notif">
-                        <i class="fas fa-check"></i>
+                        <i className="fas fa-check"></i>
                     </div>
                 </div>
                 <div className="content-notif">
@@ -124,7 +124,7 @@ const NotificationPage = () => {
                 <div className="icon">
                     <img src={iconNotifOver} alt="" height={'24px'} />
                     <div className="mark-notif danger-notif">
-                        <i class="fas fa-times"></i>
+                        <i className="fas fa-times"></i>
                     </div>
                 </div>
                 <div className="content-notif">
@@ -139,7 +139,7 @@ const NotificationPage = () => {
                 <div className="icon">
                     <img src={iconNotifOver} alt="" height={'24px'} />
                     <div className="mark-notif proses-notif">
-                        <i class="fas fa-arrow-right"></i>
+                        <i className="fas fa-arrow-right"></i>
                     </div>
                 </div>
                 <div className="content-notif">
