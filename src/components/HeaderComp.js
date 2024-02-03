@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Dropdown } from 'react-bootstrap';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import iconNotifCoin from '../assets/img/notifCoin.png';
 import iconNotifSick from '../assets/img/notifSick.png';
 import iconNotifOver from '../assets/img/notifOver.png';
@@ -13,10 +13,10 @@ const HeaderComp = () => {
                 <h1 className='fw-bold text-custom-primary fs-custom-logo'>KerjaYuk!</h1>
             </Col>
             <Col className='text-end'>
-                {/* <Link to="/notification" className='d-block d-lg-none fs-2 position-relative text-dark'>
+                <Link to="/notification" className='d-block d-lg-none fs-2 position-relative text-dark'>
                     <i className="far fa-bell"></i>
                     <div className="notification-count"></div>
-                </Link> */}
+                </Link>
                 <Dropdown className='d-none d-lg-block'>
                     <Dropdown.Toggle variant="transparent" id="notification-dropdown" className='custom-dropdown-toggle fs-2 position-relative border-0'>
                         {/* Ikon lonceng */}
